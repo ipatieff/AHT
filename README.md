@@ -27,3 +27,9 @@ const App = () => {
 
 ATH extends type - `TextareaHTMLAttributes<HTMLTextAreaElement>`, and support props className, style, etc.
 
+#Demo 
+
+1) Clone repo
+2) `yarn`
+3) `yarn run storybook`
+
