@@ -23,13 +23,27 @@ const App = () => {
 }
 ```
 
-#NOTE:
+#Note:
 
 ATH extends type - `TextareaHTMLAttributes<HTMLTextAreaElement>`, and support props className, style, etc.
 
-#Demo 
+#Demo: 
 
 1) Clone repo
 2) `yarn`
 3) `yarn run storybook`
 
+PS: Sorry, I don't deployed for live demo at server :)
+
+#Features
+
++ Simple :) 
++ Set custom height:
+`<AHT className="my_custom_class">` 
+
+and in your scss/css: 
+```
+.my_custom_class {
+    height: 45px;
+}
+```
