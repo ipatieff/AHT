@@ -1,6 +1,6 @@
 {
-  "name": "ath",
-  "version": "0.0.1",
+  "name": "@ipatieff/ath",
+  "version": "0.0.2",
   "private": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -102,7 +102,7 @@
     }
   },
   "scripts": {
-    "build": "rollup -c && xcopy /e/h/y/q \"./public/assets\" \"./dist/assets\\\" > nul 2>&1 && xcopy /e/h/y/q \"./src/styles\" \"./dist/styles\\\" > nul 2>&1",
+    "build": "rollup -c",
     "lint": "eslint ./ --cache --max-warnings=187",
     "stylelint": "stylelint \"**/*.scss\" --cache --max-warnings=187",
     "lint:errors": "npm run lint --quiet",
@@ -114,7 +114,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "publishConfig": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "git@github.com:ipatieff/AHT.git",
   "eslintConfig": {
     "extends": [
       "react-app",
