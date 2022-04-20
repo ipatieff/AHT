@@ -1,6 +1,6 @@
 {
-  "name": "@ipatieff/aht",
-  "version": "0.0.6",
+  "name": "aht",
+  "version": "0.0.7",
   "private": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -115,7 +115,7 @@
     "build-storybook": "build-storybook"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": "git@github.com:ipatieff/AHT.git",
   "eslintConfig": {

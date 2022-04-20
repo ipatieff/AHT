@@ -3,17 +3,17 @@ Auto height &lt;textarea> for ReactJS
 
 Installation:
 
-`npm install @ipatieff/aht`
+`npm install aht`
 
 or
 
-`yarn add @ipatieff/aht`
+`yarn add aht`
 
 Usage:
 
 Add import in your component:
 
-`import { AHT } from '@ipatieff/aht'`
+`import { AHT } from 'aht'`
 
 Insert in JSX:
 
